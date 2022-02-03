@@ -26,7 +26,6 @@
         headlineOrder="h3"
         type="customers"
         isMostRecent={true}
-        class="max-w-sm"
         availability={!(slug === "customer-io")}
       />
     {/each}
