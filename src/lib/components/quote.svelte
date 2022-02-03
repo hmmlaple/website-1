@@ -2,9 +2,9 @@
   let clazz = "";
   export { clazz as class };
   export let quote: string;
-  export let author: { name: string; jobTitle: string; company: string };
+  export let author: { name: string; jobTitle: string };
 
-  const { name, jobTitle, company } = author;
+  const { name, jobTitle } = author;
 </script>
 
 <style lang="postcss">
@@ -44,7 +44,7 @@
     </p>
     <p class="mt-x-small">
       <span class="font-semibold text-black">{name},</span>
-      {jobTitle} at <span class="font-bold">{company}</span>
+      {jobTitle}
     </p>
   </div>
 

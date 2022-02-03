@@ -66,8 +66,7 @@ text: "of engineers develop w/ Gitpod",
 		quote="Gitpod has been instrumental to our ability to scale so quickly"
 		author={{
 			name: "François Ruty",
-			jobTitle: "CTO",
-			company: "Shares.io"
+			jobTitle: "CTO at Shares.io",
 		}}
 	/>
 </Section>

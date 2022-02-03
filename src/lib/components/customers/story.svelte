@@ -2,6 +2,7 @@
   import Section from "../section.svelte";
   export let bannerImg: string;
   export let text: string;
+  export let image: { src: string; alt: string };
 </script>
 
 <style lang="postcss">
@@ -22,6 +23,10 @@
   <div class="text-center max-w-3xl mx-auto">
     <h2 class="h2">Full customer story</h2>
     <p>{text}</p>
+
+    {#if image}
+      <img src={image.src} alt={image.alt} class="rounded-t-2xl mt-small" />
+    {/if}
   </div>
 
   <div class="prose max-w-3xl mx-auto mt-x-large">

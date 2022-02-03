@@ -68,8 +68,7 @@ text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod t
 		cycle times from commit to deploy."
 		author={{
 			name: "Fabian Lange",
-			jobTitle: "Founder & VP Engineering",
-			company: "Instana"
+			jobTitle: "Founder & VP Engineering at Instana",
 		}}
 	/>
 </Section>

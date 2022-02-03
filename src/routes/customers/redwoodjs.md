@@ -49,70 +49,69 @@ card={{
 <CompanyBenefits
 benefits={[
 {
-title: "3x",
-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+title: "190+",
+text: "Contributors to RedwoodJS",
 },
 {
-title: "20%",
-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+title: "+1,500",
+text: "Users of the project",
 },
 {
-title: "+10k",
-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+title: "1 click",
+text: "To spin up a fully functional test project",
 }]}
 />
 
 <Section>
 	<Quote 
-		quote="Using Gitpod will improve your feature velocity and drastically reduce your
-		cycle times from commit to deploy."
+		quote="Gitpod totally changed the development velocity for RedwoodJS—it removed any issues related to configurations of dev environments and made it incredibly easy to contribute. Reviewing pull requests is delightful because they are prebuilt and ready for review!"
 		author={{
-			name: "Fabian Lange",
-			jobTitle: "Founder & VP Engineering",
-			company: "Instana"
+			name: "Tom Preston-Werner",
+			jobTitle: "Founder of GitHub & Redwood, former CEO of GitHub",
 		}}
 	/>
 </Section>
 
-<Story bannerImg="/images/customers/redwoodjs/banner.png">
+<Story bannerImg="/images/customers/redwoodjs/banner.png" text="How Gitpod increases Redwood’s development velocity by removing the friction to contribute (and how we got to talk to the GitHub founder and former CEO)" image={{src: "/images/customers/redwoodjs/twitter-chat.png", alt: "Twitter DM from Tom Preston-Werner about Gitpod"}}>
 
-# DevX & Velocity
+Similar to developer experience, Open Source is part of Gitpod’s DNA. Not only is Gitpod an open source company, but our product is positioned to remove one of the biggest hurdles before developers can contribute to open source: setting up the developer environment.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+## A match made in OSS heaven
 
-The myriad of tools relied upon by developers every day is built and maintained almost exclusively by unpaid volunteers. The maintainers of open-source projects - our digital infrastructure - are in desperate need of support. Because code is less charismatic than a hit YouTube video or Kickstarter campaign, there is little public awareness and appreciation for this work.
+Redwood is the latest open source project initiated by Tom Preston-Werner, co-founder and former CEO of GitHub. RedwoodJS is an opinionated, full-stack, serverless-ready web application framework that will allow you to build and deploy with ease.
 
-Open-source, by design, is not financially sustainable. Finding reliable, well-defined funding sources is exceptionally challenging. As projects grow in size, many maintainers burn-out, find themselves unable to satisfy increasing support/maintenance demands and, unfortunately, in my particular case, <a href="https://ghuntley.com/a-new-chapter">irrevocably harm their marriage</a>.
+As with any new open source project, the team around Tom Preston-Werner wanted to build RedwoodJS with the help of a growing community of engaged developers.
 
-<a href="https://twitter.com/freakboy3742">Russell Keith-Magee</a> delivered this beautiful keynote at PyCon, which captures the essence better than I can put in writing because it is such a personal topic.
+“From the very beginning, our goal was to build an engaging, dynamic open source community and we’re optimising for collaboration by design.”
 
-`youtube: 0t85TyH-h04`
+Often the problem with building a community of contributors is the project setup friction. And since RedwoodJS is a framework, it required tedious manual steps when setting up the developer environment like linking the framework to a development application to explore changes made to the code.
 
-Much has changed since Russells' keynote and the infrastructure to financially support open-source maintainers now exists thanks to the efforts of Open Collective and GitHub Sponsors.
+To solve that and enable developers to contribute to the project with a single click, the RedwoodJS core team turned to Gitpod. Convinced by the idea, they described their configuration and startup tasks in a [.gitpod.yml](https://github.com/redwoodjs/redwood/blob/main/.gitpod.yml) file which is available to everyone publicly as it’s versioned in the Git repo along with the source code.
 
-## Shape the future you want to live in
+<img src="/images/customers/redwoodjs/comment.png" alt="Comment about Gitpod from RedwoodJS core team member" class="rounded-t-2xl max-w-md mx-auto" />
 
-The truth is free software isn't free. How much is a task going to cost in person hours? Hours have rates. Rates require payment. Yet, an entire community of developers provide their services outside of their day job to produce tools consumed by businesses.
+## Making it easy for the community to use RedwoodJS and contribute to it
 
-Did you know there are less than 2100 people in the inner GitHub open-source maintainer community?
+As the configuration is on the repo level, it allows the community to spin up functional test projects with the click of a button that have been prebuilt ahead of time. Making it so much easier for the community to contribute and use the framework, RedwoodJS has over 1,500 users and 190+ contributors to the project, at the time of writing.
 
-![Maintainer Community](../../../static/images/blog/gitpod-open-source-sustainability-fund/maintainer-community.png)
+> “We’re obsessed with developer experience. Gitpod allowed RedwoodJS to be accessible to contributors and the core team without any friction and made everyone more productive.”
 
-**I often wonder what the future would look like if these high achievers that our digital society is built upon were empowered to become independent artists.** If just one of those people can help more people better understand a technology or improve the developer experience for an entire ecosystem what is the worth/value of that and why isn't our industry doing that yet?
+At Gitpod we also created [contribute.dev](https://contribute.dev/), an initiative to discover open source projects like Redwood’s that describe their dev environment as code with Gitpod. This way users know that they can focus on core contributions rather than sacrificing time on developer environment configurations.
 
-The word volunteer, by definition, means those who have the ability and time to give freely.
+Redwood also integrated the “Open in Gitpod” button in their [contributing.md](https://github.com/redwoodjs/redwood/blob/main/CONTRIBUTING.md#browser-based-development-setup) and recorded a 3min Gitpod + RedwoodJS walkthrough [video](https://www.youtube.com/watch?v=_kMuTW3x--s) to help contributors understand the alternative to a tedious setup on their local machine.
 
-Paying for resources that are being consumed broadens the list of people who can do open-source. Additionally, money enables open-source maintainers to buy services and outsource the activities that do not bring them joy.
+<img src="/images/customers/redwoodjs/about-gitpod.png" alt="About Gitpod" class="rounded-t-2xl" />
 
-![Money enables diversity](../../../static/images/blog/gitpod-open-source-sustainability-fund/teaser.jpg)
+Redwood also frequently hosts workshops for anyone interested to contribute to the project. Having workshop participants start their developer environment in Gitpod makes sure the time is best used for explaining how to actually contribute rather than troubleshooting everyone’s dev environment.
 
-At Gitpod, we firmly believe that working for an open-source project should be a legitimate alternative to a career working for a for-profit corporation. Additionally, we'd like everyone to be able to maintain open-source projects, not just people with the right financial background or youth that enables the ability to volunteer.
+> “It’s just brilliant and so simple to use”
 
-## Actions speak louder than words
+With more and more contributions coming in as Pull Requests, the maintainers of Redwood benefit from efficient multitrack development every day. Being able to open a fully prebuild and context aware workspace for reviewing a PR in parallel, allows them to continue with their work instantly after approving the PR. It also helps unblocking others greatly and speeds up the developer velocity.
 
-Today we are announcing five things:
+> “Gitpod totally changed the development velocity for RedwoodJS—it removed any issues related to configurations of dev environments and made it incredibly easy to contribute. Reviewing pull requests is delightful because they are prebuilt and ready for review!”
 
-![Credit: XKCD](../../../static/images/blog/gitpod-open-source-sustainability-fund/xkcd.png)
-_Credit: [XKCD](https://xkcd.com/2347/)_
+The team at Gitpod is proud to support the open source community and projects through our product. We’re doing everything we can to streamline the experience for contributors to develop open source projects. [Eligible](/docs/professional-open-source) open source contributors can use Gitpod without usage limits on any public repository. We’ve also launched an Open Source Sustainability Fund [[1](/blog/gitpod-open-source-sustainability-fund)] with an initial investment of USD 30.000 and give our employees the chance to donate $1.500USD to open source projects of their choice for successful referrals of new hires.
+
+We’re thankful for the collaboration with Redwood and the interview with Tom Preston-Werner and team that led to this case study.
 
 </Story>
