@@ -36,8 +36,14 @@
 >
   <div class="lg:mr-small mb-small lg:mb-0">
     <header class={textMaxWClass}>
-      <p class="flex items-center h5 font-bold text-light-grey mb-xx-small">
-        <img src={logo.src} alt={logo.alt} class="h-10 mr-micro" />
+      <p
+        class="flex flex-col-reverse sm:flex-row sm:items-center h5 font-bold text-light-grey mb-xx-small"
+      >
+        <img
+          src={logo.src}
+          alt={logo.alt}
+          class="h-10 w-36 sm:mr-micro mt-macro sm:mt-0"
+        />
         <span>Customer story</span>
       </p>
       <h1 class="h1">{title}</h1>
