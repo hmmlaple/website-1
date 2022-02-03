@@ -5,6 +5,9 @@ slug: customer-io
 image: teaser.png
 date: Thursday, 3 Feburary 2022 03:00:00 UTC
 availibility: false
+pageTitle: "RedwoodJS case study: Building a community by removing friction"
+pageDescription: RedwoodJS was founded by Tom Preston-Werner, the Founder and former CEO of GitHub. Gitpod removed the friction of contributing to RedwoodJS, growing the community.
+keywords: Remote. collaboration
 ---
 
 <script lang="ts" context="module">

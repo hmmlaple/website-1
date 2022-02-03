@@ -7,4 +7,5 @@ export type OpenGraph = {
   image?: string;
   imageTwitter?: string;
   norobots?: boolean;
+  keywords?: string;
 };

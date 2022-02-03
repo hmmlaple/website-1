@@ -32,8 +32,11 @@
 
 <OpenGraph
   data={{
-    description: "Read how our customers improved their development workflows.",
-    title: "Customer Stories",
+    title: "Customer stories - Gitpod",
+    description:
+      "Learn how other companies leverage Gitpod to improve their developer experience, remote collaboration and security.",
+    keywords:
+      "case study, customer story, experience, review, benefit, companies",
   }}
 />
 

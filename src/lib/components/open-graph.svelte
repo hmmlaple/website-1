@@ -8,6 +8,7 @@
     description,
     image = "images/media-image.jpg",
     title,
+    keywords = "dev environment, developer environment, devops, cloud ide, github ide, gitlab ide, javascript, online ide, web ide, code review",
     type = "website",
     imageTwitter = "images/twitter-preview.jpg",
     norobots = false,
@@ -18,10 +19,7 @@
 
 <svelte:head>
   <title>{title}</title>
-  <meta
-    name="keywords"
-    content="dev environment, developer environment, devops, cloud ide, github ide, gitlab ide, javascript, online ide, web ide, code review"
-  />
+  <meta name="keywords" content={keywords} />
   <meta name="description" content={description} />
 
   {#if norobots}

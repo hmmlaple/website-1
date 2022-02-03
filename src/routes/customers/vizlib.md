@@ -4,6 +4,9 @@ excerpt: Vizlib started using Gitpod for an internal hackathon and eventually mo
 slug: vizlib
 image: teaser.png
 date: Thursday, 3 Feburary 2022 05:00:00 UTC
+pageTitle: "Vizlib case study: 20% fewer hotfixes with Gitpod"
+pageDescription: By moving their whole development to the cloud, Vizlib reduced onboarding time for new hires from 2d to 1h. 20% fewer hotfixes after release through Gitpod.
+keywords: vizlib, astrato, data visualisation, hackathon
 ---
 
 <script lang="ts" context="module">

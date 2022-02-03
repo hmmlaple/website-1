@@ -11,7 +11,9 @@
   const baseUrl = "https://www.gitpod.io/customers/";
   export let slug;
   export let title;
-  export let excerpt;
+  export let pageTitle;
+  export let pageDescription;
+  export let keywords;
   export let image;
 
   const shareLinks = [
@@ -44,8 +46,9 @@
 
 <OpenGraph
   data={{
-    description: excerpt,
-    title,
+    title: pageTitle,
+    keywords,
+    description: pageDescription,
     type: "article",
     image: `images/customers/${slug}/${image}`,
     imageTwitter: `images/customers/${slug}/${image}`,
