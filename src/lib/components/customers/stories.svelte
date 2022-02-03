@@ -27,7 +27,6 @@
         type="customers"
         isMostRecent={true}
         class="max-w-sm"
-        teaserHeightClass="h-80"
         availability={!(slug === "customer-io")}
       />
     {/each}
