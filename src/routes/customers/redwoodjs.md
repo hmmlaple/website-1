@@ -88,7 +88,7 @@ Often the problem with building a community of contributors is the project setup
 
 To solve that and enable developers to contribute to the project with a single click, the RedwoodJS core team turned to Gitpod. Convinced by the idea, they described their configuration and startup tasks in a [.gitpod.yml](https://github.com/redwoodjs/redwood/blob/main/.gitpod.yml) file which is available to everyone publicly as it’s versioned in the Git repo along with the source code.
 
-<img src="/images/customers/redwoodjs/comment.png" alt="Comment about Gitpod from RedwoodJS core team member" class="rounded-t-2xl max-w-md mx-auto" />
+<img src="/images/customers/redwoodjs/comment.png" alt="Comment about Gitpod from RedwoodJS core team member" class="rounded-t-2xl md:max-w-md mx-auto" />
 
 ## Making it easy for the community to use RedwoodJS and contribute to it
 
