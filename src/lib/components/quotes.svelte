@@ -8,15 +8,40 @@
   .quotes {
     max-width: 1000px !important;
   }
+
+  .quote {
+    height: 350px;
+
+    @media (max-width: 1040px) {
+      height: 300px;
+    }
+
+    @media (max-width: 890px) {
+      @apply block;
+      height: auto;
+    }
+  }
+
+  .quote .text {
+    @media (max-width: 890px) {
+      height: 230px;
+    }
+    @media (max-width: 630px) {
+      height: 270px;
+    }
+    @media (max-width: 430px) {
+      height: 310px;
+    }
+  }
 </style>
 
 <div
   class="quotes bg-off-white shadow-normal rounded-2xl sm:rounded-5xl pt-micro px-0 sm:px-xx-small sm:pt-x-small sm:pb-micro lg:p-small mx-auto"
 >
-  <div class="flex justify-around flex-wrap max-w-xl mx-auto">
+  <div class="flex justify-around flex-wrap max-w-3xl mx-auto">
     {#each quotes as quote}
       <button
-        class="flex justify-center py-3 group sm:mx-micro"
+        class="flex justify-center py-3 group mx-xx-small sm:mx-micro"
         on:mouseenter={() => (selectedQuote = quote)}
         on:click={() => (selectedQuote = quote)}
       >
@@ -30,7 +55,9 @@
       </button>
     {/each}
   </div>
-  <div class="flex mt-xx-small lg:mt-small text-left min-h-fit">
+  <div
+    class="quote flex flex-col md:flex-row mt-xx-small lg:mt-small text-left pb-small md:pb-macro"
+  >
     <div>
       <img
         src={selectedQuote.img.src}
